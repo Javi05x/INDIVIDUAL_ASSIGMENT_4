@@ -1,0 +1,17 @@
+{
+  "os": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.3",
+  "numpy": "2.5.3",
+  "dask": "2026.11.0",
+  "distributed": "2026.11.0",
+  "physical_cores": 8,
+  "logical_processors": 16,
+  "ram_total_gb": 16.39,
+  "ram_available_gb_at_start": 1.85,
+  "blas_threads_env": "1",
+  "dtype": "float64",
+  "seed": 42,
+  "generator": "numpy.random.default_rng(42) (PCG64), A then B, U[0,1)",
+  "cpu": "AMD Ryzen 7 6800HS with Radeon Graphics",
+  "blas": "scipy-openblas 0.3.34.106.0"
+}

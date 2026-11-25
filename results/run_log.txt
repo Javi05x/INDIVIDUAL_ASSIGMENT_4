@@ -1,0 +1,41 @@
+ALL VALIDATION TESTS PASSED
+sequential n=1000 k=1 done
+parallel_threads n=1000 k=2 done
+parallel_threads n=1000 k=4 done
+parallel_threads n=1000 k=8 done
+parallel_threads n=1000 k=16 done
+sequential n=2000 k=1 done
+parallel_threads n=2000 k=2 done
+parallel_threads n=2000 k=4 done
+parallel_threads n=2000 k=8 done
+parallel_threads n=2000 k=16 done
+sequential n=3000 k=1 done
+parallel_threads n=3000 k=2 done
+parallel_threads n=3000 k=4 done
+parallel_threads n=3000 k=8 done
+parallel_threads n=3000 k=16 done
+sequential n=4000 k=1 done
+parallel_threads n=4000 k=2 done
+parallel_threads n=4000 k=4 done
+parallel_threads n=4000 k=8 done
+parallel_threads n=4000 k=16 done
+distributed n=1000 w=1 done (5 reps)
+distributed n=1000 w=2 done (5 reps)
+distributed n=1000 w=4 done (5 reps)
+distributed n=1000 w=8 done (5 reps)
+distributed n=1000 w=16 done (5 reps)
+distributed n=2000 w=1 done (5 reps)
+distributed n=2000 w=2 done (5 reps)
+distributed n=2000 w=4 done (5 reps)
+distributed n=2000 w=8 done (5 reps)
+SKIP n=2000 w=16 (est 1.98 GB > budget)
+distributed n=3000 w=1 done (5 reps)
+distributed n=3000 w=2 done (5 reps)
+distributed n=3000 w=4 done (5 reps)
+distributed n=3000 w=8 done (5 reps)
+SKIP n=3000 w=16 (est 2.86 GB > budget)
+distributed n=4000 w=1 done (5 reps)
+distributed n=4000 w=2 done (5 reps)
+distributed n=4000 w=4 done (5 reps)
+SKIP n=4000 w=8 (est 2.43 GB > budget)
+SKIP n=4000 w=16 (est 4.10 GB > budget)
